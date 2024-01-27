@@ -17,7 +17,8 @@ const port = 3000;
 //   res.sendFile(filePath);
 // });
 app.post('/this', (req, res) => {
-  const msg = req.body;
+  const msg = req.body.msg;
+  console.log(msg);
   res.send(msg);
 });
 
