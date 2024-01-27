@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 const port = 3000;
 
-app.get('/', (req, res) => {
+app.get('/pls', (req, res) => {
   // Specify the path to your JSON file
   const filePath = path.join(__dirname, 'shit', 'msg.json');
 
