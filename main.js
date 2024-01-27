@@ -16,6 +16,10 @@ app.get('/pls', (req, res) => {
   // Send the JSON file in the response
   res.sendFile(filePath);
 });
+app.post('/this',, (req, res) => {
+  const msg = req.body;
+  res.send(msg);
+});
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
