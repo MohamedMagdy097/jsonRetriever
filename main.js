@@ -32,16 +32,9 @@ app.get('/getJsonFile', (req, res) => {
   });
 });
 
-app.get('/pls', (req, res) => {
-  // Specify the path to your JSON file
-  const filePath = fs.readFile('./shit/msg.json')
-
-  // Send the JSON file in the response
-  res.sendFile(filePath);
-});
-app.post('/this', (req, res) => {
-  const msg = JSON.parse(req.body);
-  res.send(msg);
+app.get('/', (req, res) => {
+  console.log("LOG");
+  res.send("Hello");
 });
 
 app.listen(port, () => {
