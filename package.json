@@ -2,7 +2,7 @@
   "name": "lawyerassistant",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "main.js",
   "type": "module",
   "author": "MMagdy",
   "license": "ISC",
