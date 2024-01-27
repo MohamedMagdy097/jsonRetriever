@@ -18,6 +18,7 @@ const port = 3000;
 // });
 app.post('/this', (req, res) => {
   console.log("this: ");
+  console.log(req.body);
   const msg = req.body.msg;
   console.log(msg);
   res.send(msg);
