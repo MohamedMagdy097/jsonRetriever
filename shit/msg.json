@@ -1,0 +1,137 @@
+{
+  "thread": {
+    "id": "string",
+    "createdAt": "2024-01-26T21:01:00.574Z",
+    "updatedAt": "2024-01-26T21:01:00.574Z",
+    "createdByUserId": "string",
+    "isPublic": true,
+    "messages": [
+      {
+        "id": "string",
+        "createdAt": "2024-01-26T21:01:00.574Z",
+        "updatedAt": "2024-01-26T21:01:00.574Z",
+        "content": "string",
+        "metadata": "string",
+        "threadId": "string",
+        "dislikedReason": "string",
+        "isDisliked": true,
+        "isLiked": true,
+        "role": "string",
+        "Thread": "string"
+      }
+    ],
+    "CreatedBy": {
+      "id": "string",
+      "createdAt": "2024-01-26T21:01:00.574Z",
+      "updatedAt": "2024-01-26T21:01:00.574Z",
+      "credits": 0,
+      "subscriptionValidUntil": "2024-01-26T21:01:00.574Z",
+      "CreatedCanvas": [
+        {
+          "id": "string",
+          "createdAt": "2024-01-26T21:01:00.574Z",
+          "updatedAt": "2024-01-26T21:01:00.574Z",
+          "createdByUserId": "string",
+          "setting": "string",
+          "viewCount": 0,
+          "CreatedBy": "string",
+          "FollowedBy": [
+            "string"
+          ]
+        }
+      ],
+      "PurchaseHistory": [
+        {
+          "id": "string",
+          "createdAt": "2024-01-26T21:01:00.574Z",
+          "updatedAt": "2024-01-26T21:01:00.574Z",
+          "userId": "string",
+          "paymentProvider": "string",
+          "metadata": "string",
+          "ammount": "string",
+          "currency": "string",
+          "User": "string"
+        }
+      ],
+      "CreatedThreads": [
+        "string"
+      ],
+      "FollowedCanvas": [
+        {
+          "id": "string",
+          "createdAt": "2024-01-26T21:01:00.575Z",
+          "updatedAt": "2024-01-26T21:01:00.575Z",
+          "createdByUserId": "string",
+          "setting": "string",
+          "viewCount": 0,
+          "CreatedBy": "string",
+          "FollowedBy": [
+            "string"
+          ]
+        }
+      ],
+      "LikedThreads": [
+        "string"
+      ]
+    },
+    "LikedBy": [
+      {
+        "id": "string",
+        "createdAt": "2024-01-26T21:01:00.575Z",
+        "updatedAt": "2024-01-26T21:01:00.575Z",
+        "credits": 0,
+        "subscriptionValidUntil": "2024-01-26T21:01:00.575Z",
+        "CreatedCanvas": [
+          {
+            "id": "string",
+            "createdAt": "2024-01-26T21:01:00.575Z",
+            "updatedAt": "2024-01-26T21:01:00.575Z",
+            "createdByUserId": "string",
+            "setting": "string",
+            "viewCount": 0,
+            "CreatedBy": "string",
+            "FollowedBy": [
+              "string"
+            ]
+          }
+        ],
+        "PurchaseHistory": [
+          {
+            "id": "string",
+            "createdAt": "2024-01-26T21:01:00.575Z",
+            "updatedAt": "2024-01-26T21:01:00.575Z",
+            "userId": "string",
+            "paymentProvider": "string",
+            "metadata": "string",
+            "ammount": "string",
+            "currency": "string",
+            "User": "string"
+          }
+        ],
+        "CreatedThreads": [
+          "string"
+        ],
+        "FollowedCanvas": [
+          {
+            "id": "string",
+            "createdAt": "2024-01-26T21:01:00.575Z",
+            "updatedAt": "2024-01-26T21:01:00.575Z",
+            "createdByUserId": "string",
+            "setting": "string",
+            "viewCount": 0,
+            "CreatedBy": "string",
+            "FollowedBy": [
+              "string"
+            ]
+          }
+        ],
+        "LikedThreads": [
+          "string"
+        ]
+      }
+    ],
+    "exploreTag": "SCREENER",
+    "viewCount": 0,
+    "likeCount": 0
+  }
+}
